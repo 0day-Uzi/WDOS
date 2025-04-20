@@ -274,3 +274,17 @@ footer {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .nav-links a {
+        display: none;
+    }
+
+    .hamburger-btn {
+        display: flex;
+    }
+
+    .mobile-menu.active {
+        display: flex;
+    }
+}

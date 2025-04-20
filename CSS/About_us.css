@@ -293,6 +293,20 @@ footer {
         
     }
 }
+@media only screen and (max-width: 768px) {
+    .nav-links a {
+        display: none;
+    }
+
+    .hamburger-btn {
+        display: flex;
+    }
+
+    .mobile-menu.active {
+        display: flex;
+    }
+}
+
 
 /* Desktop view */
 @media (min-width: 1024px) {

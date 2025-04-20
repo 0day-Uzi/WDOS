@@ -240,6 +240,20 @@ footer {
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .nav-links a {
+        display: none;
+    }
+
+    .hamburger-btn {
+        display: flex;
+    }
+
+    .mobile-menu.active {
+        display: flex;
+    }
+}
+
 @media (max-width: 1024px) {
     grid-layout {
         grid-template-columns: repeat(4, 1fr);
