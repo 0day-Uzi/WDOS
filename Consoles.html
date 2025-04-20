@@ -19,19 +19,54 @@
     </head>
     <body>  
         <header>
-            <nav>
-                <img src="Images/logo.png" alt="shop logo">                         
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="About_us.html">About us</a></li>
-                    <li><a href="Upcoming_games.html">Upcoming Games</a></li>
-                    <li><a href="Consoles.html">Consoles</a></li>     
-                    <li><a href="gaming_peripherals.html">Gaming Peripherals</a></li>
-                    <li><a href="Games.html">Games</a></li>
-                    <li><a href="Questions.html">FaQ</a></li>
-                </ul>
+            <nav>   
+                <img src="Images/logo.png" alt="shop-logo">            
+                
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="About_us.html">About Us</a>
+                    <a href="Upcoming_games.html">Upcoming Games</a>
+                    <a href="Consoles.html">Consoles</a>
+                    <a href="gaming_peripherals.html">Gaming Peripherals</a>
+                    <a href="Games.html">Games</a>
+                    <a href="Hardware.html">Pc Hardware</a>
+                    <a href="Questions.html">FaQ</a>
+                </div>
+    
+                <button class="hamburger-btn">
+                    <span class="material-icons">menu</span>
+                </button>
+    
+                <div class="mobile-menu">
+                    <a href="index.html">Home</a>
+                    <a href="About_us.html">About us</a>
+                    <a href="Upcoming_games.html">Upcoming Games</a>
+                    <a href="Consoles.html">Consoles</a>
+                    <a href="gaming_peripherals.html">Gaming Peripherals</a>
+                    <a href="Games.html">Games</a>
+                    <a href="Hardware.html">Pc Hardware</a>
+                    <a href="Questions.html">FaQ</a>
+                </div>
             </nav>
         </header>
+    
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const hamburgerBtn = document.querySelector('.hamburger-btn');
+                const mobileMenu = document.querySelector('.mobile-menu');
+    
+                hamburgerBtn.addEventListener('click', function() {
+                    mobileMenu.classList.toggle('active');
+                });
+    
+                document.addEventListener('click', function(e) {
+                    if (!e.target.closest('nav')) {
+                        mobileMenu.classList.remove('active');
+                    }
+                });
+            });
+        </script>
+        
         <main>
             <h1>Explore Consoles</h1>
             <section class="grid-layout">
