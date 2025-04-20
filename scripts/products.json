@@ -93,6 +93,105 @@
                     "buttonText": "Add to Cart"
                 } 
             ]
+        },
+        {
+            "category": "Motherboards",
+            "products": [
+                {
+                    "name": "Colorful CVN Z790D5 Gaming pro V20",
+                    "image": "Images/MB_1.png",
+                    "price": "69 000 LKR",
+                    "specs": "Colorful CVN Z790D5 Gaming pro V20",
+                    "buttonText": "Add to Cart"
+                },
+                {
+                    "name": "MSI Mag x870E Tomahawk WiFi",
+                    "image": "Images/MB_2.png",
+                    "price": "146 000 LKR",
+                    "specs": "MSI Mag x870E Tomahawk WiFi",
+                    "buttonText": "Add to Cart"
+                },
+                {
+                    "name": "MSI Pro B760,-A wifi DDR5",
+                    "image": "Images/MB_3.png",
+                    "price": "59 000 LKR",
+                    "specs": "MSI Pro B760,-A wifi DDR5",
+                    "buttonText": "Add to Cart"
+                },
+                {
+                    "name": "ASUS ROG STRIX B860-A Wifi DDR5 Gaming",
+                    "image": "Images/MB_4.png",
+                    "price": "106 000 LKR",
+                    "specs": "ASUS ROG STRIX B860-A Wifi DDR5 Gaming",
+                    "buttonText": "Add to Cart"
+                },
+                {
+                    "name": "ASUS ROG CROSSHAIR X870E HERO",
+                    "image": "Images/MB_5.png",
+                    "price": "279 000 LKR",
+                    "specs": "ASUS ROG CROSSHAIR X870E HERO",
+                    "buttonText": "Add to Cart"
+                },
+                {
+                    "name": "ASUS ProArt z890-Creator wifi",
+                    "image": "Images/MB_6.png",
+                    "price": "229 000 LKR",
+                    "specs": "ASUS ProArt z890-Creator wifi",
+                    "buttonText": "Add to Cart"
+                }
+
+            ]
+        },
+            {
+            "category": "Memory",
+            "products": [
+
+                {
+                    "name": "CROSHAIR Dominator Titanium RGB 64GB(2x32GB) DDR5 6400MHZ intel XMP",
+                    "image": "Images/MEM_1.png",
+                    "price": "105 000 LKR",
+                    "specs": "CROSHAIR Dominator Titanium RGB 64GB(2x32GB) DDR5 6400MHZ intel XMP",
+                    "buttonText": "Add to Cart"
+                },
+                { 
+                "name": "CROSHAIR Dominator Titanium RGB 34-64GB DDR5 6000MHZ AMD & intel XMP",
+                "image": "Images/MEM_2.png",
+                "price": "61 0500 LKR",
+                "specs": "CROSHAIR Dominator Titanium RGB 34-64GB DDR5 6000MHZ AMD & intel XMP",
+                "buttonText": "Add to Cart"
+                },
+                {   
+                "name": "Team T-Create Expert (64GB-96GB) KIT 6400MHZ",
+                "image": "Images/MEM_3.png",
+                "price": "79 000 LKR",
+                "specs": "Team T-Create Expert (64GB-96GB) KIT 6400MHZ",
+                "buttonText": "Add to Cart"
+                },
+                {
+                "name": "Adata XPG Gammix 16GB DDR4 33200Mhz D35",
+                "image": "Images/MEM_4.png",
+                "price": "11 000 LKR",
+                "specs": "Adata XPG Gammix 16GB DDR4 33200Mhz D35",
+                "buttonText": "Add to Cart"
+                },
+                {
+                    
+                "name": "More RAM COMING SOON !!",
+                "image": "Images/More.jpg",
+                "price": "0 LKR",
+                "specs": "More RAM COMING SOON !!",
+                "buttonText": "Add to Cart"
+                },
+                {
+                    "name": "More RAM COMING SOON !!",
+                    "image": "Images/More.jpg",
+                    "price": "0 LKR",
+                    "specs": "More RAM COMING SOON !!",
+                    "buttonText": "Add to Cart"
+                }
+
+            ]
+            
         }
     ] 
 }
