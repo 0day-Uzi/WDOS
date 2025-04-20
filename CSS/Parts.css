@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #1a3434;
+    background-color: #f1f1f1;
 }
 
 /* Navigation Styles */
@@ -38,7 +38,7 @@ nav img {
 
 .nav-links a {
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
     color: rgb(100, 100, 100);
     margin: 0 20px;
@@ -108,8 +108,8 @@ h1 {
 }
 
 /* Category Sections */
-.category {
-    margin-bottom: 40px; /* Adds space in between each section*/
+.category-section {
+    margin-bottom: 40px; 
 }
 
 .category-section h2 {
@@ -274,7 +274,7 @@ footer {
     nav ul li {
         margin: 0 15px;
     }
-    .Games-main-style {
+    .product-grid {
         grid-template-columns: repeat(3, 1fr);
     }
 
@@ -301,28 +301,24 @@ footer {
 
 
 @media (min-width: 1024px) {
-    .grid-layout { 
-        grid-template-columns: repeat(3, 1fr);
-    }
-
     h1 {
         font-size: 2.5em;
     }
-
-    h2 {
-        font-size: 2.5em;
+    
+    .category-section h2 {
+        font-size: 2em;
     }
-
-    .boxes {
+    
+    .product-card {
         padding: 20px;
     }
-
-    .boxes h3 {
-        font-size: 1.8em;
+    
+    .product-card h3 {
+        font-size: 1.2em;
     }
-
-    .boxes p {
-        font-size: 1.1rem;
+    
+    .product-card p {
+        font-size: 1em;
     }
 }
 
