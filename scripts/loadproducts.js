@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         })
         .catch(error => {
-            console.error("failed to load products;", error);
+            console.error("failed to load products:", error);
         })
 });
     
