@@ -192,6 +192,54 @@
 
             ]
             
+        },
+        {
+            "category":"Storage",
+            "products":[
+                {
+                    "name": "Samsung 990 pro PCle 4.0 NVMe SSD 1Tb",
+                    "image": "Images/STOR_1.png",
+                    "price": "34 500",
+                    "specs": "Samsung 990 pro PCle 4.0 NVMe SSD 1Tb",
+                    "buttonText": "Add to Cart"
+                },
+                {
+                    "name": "Samsung 980 NVMe M.2 1Tb SSD",
+                    "image": "Images/STOR_2.png",
+                    "price": "28 500 LKR",
+                    "specs": "Samsung 980 NVMe M.2 1Tb SSD",
+                    "buttonText": "Add to Cart"
+                },
+                {
+                    "name": "Samsung 870 EVO 500GB",
+                    "image": "Images/STOR_3.png",
+                    "price": "21 500 LKR",
+                    "specs": "Samsung 870 EVO 500GB",
+                    "buttonText": "Add to Cart"
+                },
+                {
+                    "name": "Lexar NM620 M.2 Gen3X4 NVMe 256GB - 2TB",
+                    "image": "Images/STOR_4.png",
+                    "price": "34 500 LKR",
+                    "specs": "Lexar NM620 M.2 Gen3X4 NVMe 256GB - 2TB",
+                    "buttonText": "Add to Cart"
+                },
+                {
+                    "name": "Addlink s20 SATA SSD 3D NAND 2.5 Inch 120GB - 2TB",
+                    "image": "Images/STOR_5.png",
+                    "price": "7 500 LKR",
+                    "specs": "Addlink s20 SATA SSD 3D NAND 2.5 Inch 120GB - 2TB",
+                    "buttonText": "Add to Cart" 
+                },
+                {
+                    "name": "Team TForce Vulcan Z SATA SSD 256GB - 1TB",
+                    "image": "Images/STOR_6.png",
+                    "price": "8 500 LKR",
+                    "specs": "Team TForce Vulcan Z SATA SSD 256GB - 1TB",
+                    "buttonText": "Add to Cart"
+                }
+
+            ]
         }
     ] 
 }
