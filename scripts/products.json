@@ -1,0 +1,99 @@
+{   
+   "categories": [
+        {
+            "category": "Processors",
+            "products": [
+                {
+                    "name":"AMD Ryzen 9 9950X3D(up to 5.7Ghz 16-cores 32-threads)128M Cache",
+                    "image":"Images/Ryzen_1.png",
+                    "price":"254 000 LKR",
+                    "specs":"AMD Ryzen 9 9950X3D(up to 5.7Ghz 16-cores 32-threads) 128M Cache",
+                    "buttonText": "Add to Cart"
+                },
+                {
+                    "name":"AMD Ryzen 9 9950X3D(up to 5.5Ghz 16-cores 24-threads)128M Cache",
+                    "image":"Images/ryzen_2.png",
+                    "price":"219 000 LKR",
+                    "specs":"AMD Ryzen 9 9950X3D(up to 5.5Ghz 12-cores 24-threads) 128M Cache",
+                    "buttonText": "Add to Cart"
+                },
+                {
+                    "name":"Intel Core Ultra 9 Processor 285K",
+                    "image":"Images/intel_1.png",
+                    "price":"194 000 LKR",
+                    "specs":"Intel Core Ultra 9 Processor 285k",
+                    "buttonText": "Add to Cart"
+                },
+                {
+                    "name":"Intel Core Ultra 7 Processor 265K",
+                    "image":"Images/Intel_2.png",
+                    "price":"124 000 LKR",
+                    "specs":"Intel Core Ultra 7 Processor 265k",
+                    "buttonText": "Add to Cart"
+                },
+                {
+                    "name":"AMD Ryzen 5 5500(up to 4.2Ghz 6-cores 12-threads)19M Cache",
+                    "image":"Images/ryzen_3.png",
+                    "price":"31 000 LKR",
+                    "specs":"AMD Ryzen 5 5500(up to 4.2Ghz 6-cores 12-threads)19M Cache",
+                    "buttonText": "Add to Cart"
+                },
+                {
+                    "name": "Intel core I5-12400F (18M Cache, Up To 4.40Ghz)",
+                    "image": "Images/Intel_3.png",
+                    "price": "38 000 LKR",
+                    "specs": "Intel core I5-12400F (18M Cache, Up To 4.40Ghz)",
+                    "buttonText": "Add to Cart"
+                }
+            ]        
+        },
+        {
+            "category": "Graphics Cards",
+            "products": [
+                {
+                    "name": "ZOTAC Gaming GeForce RTX 5070 SOLID OC 12GB",
+                    "image": "Images/GPC_1.png",
+                    "price": "250 000 LKR",
+                    "specs": "ZOTAC Gaming GeForce RTX 5070 SOLID OC 12GB",
+                    "buttonText": "Add to Cart"
+                },
+                {
+                    "name": "ZOTAC Gaming GeForce RTX 5070 Ti AMP Extreme INFINITY 16GB",
+                    "image": "Images/GPC_2.png",
+                    "price": "372 000 LKR",
+                    "specs": "ZOTAC Gaming GeForce RTX 5070 Ti AMP Extreme INFINITY 16GB",
+                    "buttonText": "Add to Cart"
+                },
+                {
+                    "name": "ZOTAC Gaming GeForce RTX 5080 AMP Extreme INFINITY 16GB",
+                    "image": "Images/GPC_3.png",
+                    "price": "489 000 LKR",
+                    "specs": "ZOTAC Gaming GeForce RTX 5080 AMP Extreme INFINITY 16GB",
+                    "buttonText": "Add to Cart"
+                },
+                {
+                    "name": "ASUS ROG GeForce RTX 5090 Astral 32GB GDDR7",
+                    "image": "Images/GPC_4.png",
+                    "price": "1 500 000 LKR",
+                    "specs": "ASUS ROG GeForce RTX 5090 Astral 32GB GDDR7",
+                    "buttonText": "Add to Cart"
+                },
+                {
+                    "name": "MSI GeForce RTX 5080 16GB Suprim Liquid SOC",
+                    "image": "Images/GPC_5.png",
+                    "price": "455 000 LKR",
+                    "specs": "MSI GeForce RTX 5080 16GB Suprim Liquid SOC",
+                    "buttonText": "Add to Cart"
+                },
+                {
+                    "name": "SUS TUF Gaming GeForce RTX 5080 16GB GDDR7",
+                    "image": "Images/GPC_6.png",
+                    "price": "700 000 LKR",
+                    "specs": "SUS TUF Gaming GeForce RTX 5080 16GB GDDR7",
+                    "buttonText": "Add to Cart"
+                } 
+            ]
+        }
+    ] 
+}
+       
