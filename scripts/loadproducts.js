@@ -23,8 +23,6 @@ document.addEventListener("DOMContentLoaded", () => {
                     <img src="${product.image}" alt="${product.name}">
                     <h3>${product.name}</h3>
                     <p>${product.specs}</p>
-                    ${!product.isPlaceholder ? `<p class="price">LKR ${product.price.toLocaleString()}</p>
-                    <button>${product.buttonText}</button>` : `<p class="coming-soon">More options arriving soon.</p>`}
                 `;
 
                 grid.appendChild(card);
