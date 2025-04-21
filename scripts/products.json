@@ -178,7 +178,8 @@
                     "name": "More RAM COMING SOON !!",
                     "image": "Images/More.jpg",
                     "price": "0 LKR",
-                    "specs": "More RAM COMING SOON !!"
+                    "specs": "More RAM COMING SOON !!",
+                    "buttonText": "Add to Cart"
                 },
                 {
                     "name": "More RAM COMING SOON !!",
