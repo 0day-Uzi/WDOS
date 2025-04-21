@@ -1,0 +1,378 @@
+/* Main checkout styles */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1; 
+    background-color: #000000;
+    padding: 10px 0;
+}
+
+nav {
+    width: 100%;
+    height: fit-content;
+    background: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+nav img {
+    width: 140px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: rgb(100, 100, 100);
+    margin: 0 20px;
+}
+
+.nav-links a:hover {
+    border-bottom: 2px solid rgb(7, 102, 197);
+    color: rgb(158, 152, 152);
+}
+
+.hamburger-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: none;
+    border: none;
+    display: none; /* Hidden by default */
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+}
+
+.hamburger-btn:hover {
+    background: rgb(84, 102, 124);
+    color: rgb(120, 146, 171);
+}
+
+.mobile-menu {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 200px;
+    height: fit-content;
+    display: none;
+    flex-direction: column;
+    background: rgb(61, 85, 113);
+    border-radius: 5px;
+    padding: 10px 0;
+    z-index: 1001;
+}
+
+.mobile-menu a {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.mobile-menu a:hover {
+    background: white;
+    color: rgb(1, 42, 84);
+}
+
+
+/*Checkout section*/
+
+.checkout-container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.checkout-box {
+    background-color: #939495;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.checkout-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: rgb(71, 195, 195);
+}
+
+/*Form Styles */
+.form-group {
+    margin-bottom: 1.2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    align-items: center;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 0.30rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    color: lightgray;
+    font-size: 1rem;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+
+/*Order */
+.order-summary {
+    background-color: black;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    color: white;
+}
+
+.order-item img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-right: 1rem;
+    background: white;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+.order-total {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 1rem;
+    color: aqua;
+}
+
+/*Buttons*/
+.checkout-btn {
+    width: 100%;
+    padding: 1rem;
+    background-color: #2a7f8b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 1.5rem;
+}
+
+.checkout-btn:hover {
+    background-color: #1e5d66;
+    transform: translateY(-2px);
+}
+
+.back-to-cart {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #2a7f8b;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/*Payment*/
+
+.payment-methods {
+    margin: 1.5rem 0;
+}
+
+.payment-method {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.75rem;
+    padding: 0.75rem;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.payment-method input {
+    margin-right: 0.75rem;
+}
+
+/*order confirmed*/
+
+.confirmation-message {
+    display: none;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.confirmation-message h2 {
+    color: teal;
+    margin-bottom: 1.5rem;
+}
+
+.order-number {
+    font-weight: bold;
+    color: teal;
+    font-size: 1.2rem;
+}
+
+.confirmation-message {
+    animation: fadeIn 0.5s ease-out;
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.login-form, .social-signup {
+    margin-bottom: 20px;
+}
+
+.login-form h3, .social-signup h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.login-form input {
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #f9f9f9;
+    color: #000000;
+    width: 100%;
+    max-width: 300px;
+}
+
+.login-form button {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 20px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: #333333;
+    border: 2px solid rgb(106, 106, 107);
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.7);
+}
+
+/*Responsiveness*/
+
+@media (min-width: 768px) {
+    .form-row {
+        grid-template-columns: 1fr 1fr;
+    }
+    h1 {
+        font-size: 36px;
+        margin: 35px 15px;
+    }
+
+    nav ul {
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .checkout-box {
+        padding: 1.5rem;
+    }
+    
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-links a {
+        display: none;
+    }
+    
+    .hamburger-btn {
+        display: flex;
+    }
+    
+    .mobile-menu.active {
+        display: flex;
+    }
+}
+/* Desktop view */
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 40px;
+        margin: 45px auto;
+    }
+
+    .branch-box {
+        max-width: 1000px;
+    }
+
+    footer input {
+        width: 20%;
+    }
+    .form-group {
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
