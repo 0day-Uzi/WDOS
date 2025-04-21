@@ -179,14 +179,14 @@
                     "image": "Images/More.jpg",
                     "price": "0 LKR",
                     "specs": "More RAM COMING SOON !!",
-                    "buttonText": "Add to Cart"
+                    "isPlaceholder": true
                 },
                 {
                     "name": "More RAM COMING SOON !!",
                     "image": "Images/More.jpg",
                     "price": "0 LKR",
                     "specs": "More RAM COMING SOON !!",
-                    "buttonText": "Add to Cart"
+                    "isPlaceholder": true
                 }
 
             ]
