@@ -178,15 +178,13 @@
                     "name": "More RAM COMING SOON !!",
                     "image": "Images/More.jpg",
                     "price": "0 LKR",
-                    "specs": "More RAM COMING SOON !!",
-                    "isPlaceholder": true
+                    "specs": "More RAM COMING SOON !!"
                 },
                 {
                     "name": "More RAM COMING SOON !!",
                     "image": "Images/More.jpg",
                     "price": "0 LKR",
-                    "specs": "More RAM COMING SOON !!",
-                    "isPlaceholder": true
+                    "specs": "More RAM COMING SOON !!"
                 }
 
             ]
