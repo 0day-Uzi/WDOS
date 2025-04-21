@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     <img src="${product.image}" alt="${product.name}">
                     <h3>${product.name}</h3>
                     <p>${product.specs}</p>
+                    ${product.buttonText ? `<button class="add-to-cart">${product.buttonText}</button>` : ""}
                 `;
 
                 grid.appendChild(card);

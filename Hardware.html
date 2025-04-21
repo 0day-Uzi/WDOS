@@ -40,24 +40,25 @@
                 <a href="Questions.html">FaQ</a>
             </div>
         </nav>
-
-        <script>
-          document.addEventListener('DOMContentLoaded', function() {
-              const hamburgerBtn = document.querySelector('.hamburger-btn');
-              const mobileMenu = document.querySelector('.mobile-menu');
-              
-              hamburgerBtn.addEventListener('click', function() {
-                  mobileMenu.classList.toggle('active');
-              });
-          
-              document.addEventListener('click', function(e) {
-                  if (!e.target.closest('nav')) {
-                      mobileMenu.classList.remove('active');
-                  }
-              });
-          });
-       </script>
     </header>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const hamburgerBtn = document.querySelector('.hamburger-btn');
+            const mobileMenu = document.querySelector('.mobile-menu');
+
+            hamburgerBtn.addEventListener('click', function() {
+                mobileMenu.classList.toggle('active');
+            });
+
+            document.addEventListener('click', function(e) {
+                if (!e.target.closest('nav')) {
+                    mobileMenu.classList.remove('active');
+                }
+            });
+        });
+    </script>
+
     <main>
         <h1>Build Your Dream PC 🖥️</h1>
         <div class="categories-container" id="products-container"></div>
@@ -131,6 +132,5 @@
       </footer>
       
     <script src="scripts/loadproducts.js" defer></script>
-
 </body>
 </html>
