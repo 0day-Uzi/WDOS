@@ -22,7 +22,7 @@ nav {
     justify-content: space-between;
     padding: 10px 20px;
     box-sizing: border-box;
-    position: sticky;
+    position: relative;
 }
 
 nav img {
@@ -336,5 +336,13 @@ footer {
 
     .mobile-menu.active {
         display: flex;
+    }
+}
+@media (min-width: 1024px) {
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 1; 
+        background-color: #000000;
     }
 }

@@ -286,6 +286,12 @@ footer {
     .boxes p {
         font-size: 1.1rem;
     }
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 1; 
+        background-color: #000000;
+    }
 }
 
 @media only screen and (max-width: 768px) {

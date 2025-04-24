@@ -29,7 +29,7 @@ nav {
     justify-content: space-between;
     padding: 10px 20px;
     box-sizing: border-box;
-    position: sticky;
+    position: relative;
 }
 
 nav img {
@@ -278,6 +278,12 @@ footer {
 @media (min-width: 1024px) {
     .Games-main-style {
         grid-template-columns: repeat(3, 1fr);
+    }
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 1; 
+        background-color: #000000;
     }
 }
 

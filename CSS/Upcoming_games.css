@@ -287,6 +287,12 @@ footer {
         flex: 1 1 30%; 
         align-items: center;
     }
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 1; 
+        background-color: #000000;
+    }
 }
 
 @media only screen and (max-width: 768px) {
