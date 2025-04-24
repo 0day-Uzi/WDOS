@@ -20,9 +20,9 @@ nav {
 }
 
 nav img {
-    width: 140px;
+    padding-left: 5rem;
+    width: 14rem;
     justify-content: center;
-    padding-left: 17rem;
 }
 
 /*Checkout section*/
