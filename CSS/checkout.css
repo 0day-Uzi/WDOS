@@ -21,76 +21,11 @@ nav {
 
 nav img {
     width: 140px;
-}
-
-.nav-links {
-    display: flex;
-    align-items: center;
-}
-
-.nav-links a {
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    color: rgb(100, 100, 100);
-    margin: 0 20px;
-}
-
-.nav-links a:hover {
-    border-bottom: 2px solid rgb(7, 102, 197);
-    color: rgb(158, 152, 152);
-}
-
-.hamburger-btn {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: none;
-    border: none;
-    display: none; /* Hidden by default */
-    align-items: center;
     justify-content: center;
-    cursor: pointer;
-    color: white;
+    padding-left: 17rem;
 }
-
-.hamburger-btn:hover {
-    background: rgb(84, 102, 124);
-    color: rgb(120, 146, 171);
-}
-
-.mobile-menu {
-    position: absolute;
-    top: 60px;
-    right: 20px;
-    width: 200px;
-    height: fit-content;
-    display: none;
-    flex-direction: column;
-    background: rgb(61, 85, 113);
-    border-radius: 5px;
-    padding: 10px 0;
-    z-index: 1001;
-}
-
-.mobile-menu a {
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    font-weight: 500;
-    padding: 10px 0;
-}
-
-.mobile-menu a:hover {
-    background: white;
-    color: rgb(1, 42, 84);
-}
-
 
 /*Checkout section*/
-
 .checkout-container {
     max-width: 1000px;
     margin: 2rem auto;
@@ -98,7 +33,7 @@ nav img {
 }
 
 .checkout-box {
-    background-color: #939495;
+    background-color: #486584;
     border-radius: 10px;
     padding: 2rem;
     margin-bottom: 2rem;
@@ -122,7 +57,6 @@ nav img {
     margin-bottom: 0.5rem;
     color: rgb(0, 0, 0);
     font-weight: 600;
-    align-items: center;
 }
 
 .form-group input,
@@ -133,7 +67,7 @@ nav img {
     border: 1px solid white;
     border-radius: 5px;
     background-color: white;
-    color: lightgray;
+    color: rgb(0, 0, 0);
     font-size: 1rem;
 }
 
@@ -151,32 +85,49 @@ nav img {
     background-color: black;
     border-radius: 8px;
     padding: 1.5rem;
-    margin-top: 2rem;
+    margin: 2rem 0;
     color: white;
+    overflow: hidden;
 }
 
-.order-item img {
-    width: 60px;
-    height: 60px;
-    object-fit: contain;
-    margin-right: 1rem;
-    background: white;
-    padding: 2px;
-    border-radius: 4px;
+
+.order-summary h2 {
+    margin-bottom: 1rem;
+    color: teal;
 }
 
-.order-total {
-    font-size: 1.2rem;
-    font-weight: bold;
+.order-summary table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.order-summary th, 
+.order-summary td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.order-item-name {
+    flex: 2;
+}
+
+.order-item-price {
+    flex: 1;
     text-align: right;
-    margin-top: 1rem;
-    color: aqua;
+}
+
+.delivery-info {
+    background: #f0f8ff;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 5px;
 }
 
 /*Buttons*/
 .checkout-btn {
     width: 100%;
-    padding: 1rem;
+    padding: 1rem 1rem;
     background-color: #2a7f8b;
     color: white;
     border: none;
@@ -202,7 +153,6 @@ nav img {
 }
 
 /*Payment*/
-
 .payment-methods {
     margin: 1.5rem 0;
 }
@@ -216,16 +166,14 @@ nav img {
     border-radius: 5px;
     border: 1px solid white;
 }
-
 .payment-method input {
     margin-right: 0.75rem;
 }
 
 /*order confirmed*/
-
 .confirmation-message {
     display: none;
-    background-color: white;
+    background-color: rgb(121, 153, 180);
     border-radius: 10px;
     padding: 2rem;
     text-align: center;
@@ -236,15 +184,20 @@ nav img {
     color: teal;
     margin-bottom: 1.5rem;
 }
-
-.order-number {
-    font-weight: bold;
-    color: teal;
-    font-size: 1.2rem;
+.confirmation-message p {
+    font-family: 'Times New Roman', Times, serif;
 }
-
-.confirmation-message {
-    animation: fadeIn 0.5s ease-out;
+.continue-shopping {
+    display: inline-block;
+    margin: 1rem;
+    border-radius: 10px;
+    border: 5px solid teal;
+    color: white;
+    background-color: teal;
+    text-decoration: none
+}
+.continue-shopping:hover {
+    background-color: #1e5d66;
 }
 
 
@@ -324,13 +277,6 @@ footer {
         font-size: 36px;
         margin: 35px 15px;
     }
-
-    nav ul {
-        flex-direction: row;
-        justify-content: center;
-        gap: 15px;
-    }
-
 }
 
 @media (max-width: 768px) {
@@ -340,20 +286,6 @@ footer {
     
     .form-row {
         grid-template-columns: 1fr;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .nav-links a {
-        display: none;
-    }
-    
-    .hamburger-btn {
-        display: flex;
-    }
-    
-    .mobile-menu.active {
-        display: flex;
     }
 }
 /* Desktop view */
@@ -373,6 +305,9 @@ footer {
     .form-group {
         align-items: center;
         justify-content: center;
+    }
+    nav img {
+        padding-left: 55rem;
     }
     
 }
