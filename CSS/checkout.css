@@ -7,24 +7,6 @@ header {
     padding: 10px 0;
 }
 
-nav {
-    width: 100%;
-    height: fit-content;
-    background: rgb(0, 0, 0);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
-    box-sizing: border-box;
-    position: relative;
-}
-
-nav img {
-    padding-left: 5rem;
-    width: 14rem;
-    justify-content: center;
-}
-
 /*Checkout section*/
 .checkout-container {
     max-width: 1000px;
