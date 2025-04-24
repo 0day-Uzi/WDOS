@@ -6,12 +6,18 @@ body {
     /*Background image styles*/
     background-color: #f9f9f9;
     background-image: url(../Images/bg_4.jpeg);
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1; 
+    background-color: #000000;
+}
 
 /* Navigation Styles */
 nav {
