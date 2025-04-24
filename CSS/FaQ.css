@@ -6,6 +6,13 @@ body {
     background-color:white; 
     color: black; 
 }
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1; 
+    background-color: #000000;
+}
+
 nav {
     width: 100%;
     height: fit-content;
